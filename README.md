@@ -38,8 +38,8 @@ python main.py
 - q_learning.py: Implements the Q-learning algorithm.
 - visualizer.py: Handles Pygame visualization.
 - requirements.txt: Lists dependencies (pygame, numpy)
-- docs/: Contains detailed documentation (see docs/documentation.md).
-- slides/: Contains presentation slides (see slides/presentation.pdf).
+- docs/: Contains detailed documentation (see docs/documentation.md) and conceptual track submission (see docs/conceptualtrack.pdf)
+- slides/: Contains presentation slides (see slides/presentation.pdf). A PDF slide deck summarizing the project, including an introduction, solution overview, technical highlights, testing results, and conclusion. Includes the creative angle and also snapshot and a quick video of resultant of moving rover.
 
 **Notes**
 - The code includes error handling for invalid inputs, file loading, and simulation crashes.
@@ -51,22 +51,18 @@ python main.py
 This project extends to the Conceptual Track, proposing innovative enhancements and planning for future development. The following artifacts are included:
 
 **Project Proposal**
-- Location: docs/project_proposal.md
 - Details: Outlines the goal of simulating lunar rover navigation with Q-learning, targeting educational and research applications. Proposes scalability and robustness as key objectives.
 
 **Detailed Solution Plan**
-- Location: docs/solution_plan.md
 - Details: Describes the architecture (Environment, Rover, Q-Learning, Visualization) and technical optimizations (state sync, reduced obstacles, adjusted learning parameters).
 
 **Testing Plan**
-- Location: docs/testing_plan.md
 - Details: Defines test cases for movement, obstacle avoidance, target reach, boundary checks, and episode completion. Targets 100 episodes with a 20,000-step limit.
-
-**Presentation Slides**
-- Location: presentations/presentation_slides.pdf
-- Details: A PDF slide deck summarizing the project, including an introduction, solution overview, technical highlights, testing results, and conclusion. Includes the creative angle and also snapshot and a quick video of resultant of moving rover.
 
 **Creative Addition: KLunar Navigator Mascot & Architecture**
 - Concept: A cheerful Klunar navigator, depicted as a blue robotic rover with an astronaut helmet featuring a glowing visor map. Represents the rover’s journey and resilience.
 - Purpose: Enhances engagement in presentations and documentation.
 - Narrative: “KLunar Navigator explores the lunar plains, learning to avoid craters and reach its base!”
+
+
+
